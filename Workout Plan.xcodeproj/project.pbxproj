@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5A762B1BD84371009AD03F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A762A1BD84371009AD03F /* icon.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76351BD84868009AD03F /* barbellInclineBenchPress.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A762D1BD84868009AD03F /* barbellInclineBenchPress.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76361BD84868009AD03F /* cableCrunch.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A762E1BD84868009AD03F /* cableCrunch.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76371BD84868009AD03F /* inclineDumbellPress.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A762F1BD84868009AD03F /* inclineDumbellPress.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76381BD84868009AD03F /* lowPulley.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76301BD84868009AD03F /* lowPulley.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76391BD84868009AD03F /* machineBenchPress.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76311BD84868009AD03F /* machineBenchPress.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A763A1BD84868009AD03F /* SeatedBentDeltRaise.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76321BD84868009AD03F /* SeatedBentDeltRaise.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A763B1BD84868009AD03F /* smithMachineOverheadPress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76331BD84868009AD03F /* smithMachineOverheadPress.jpg */; settings = {ASSET_TAGS = (); }; };
+		AC5A763C1BD84868009AD03F /* weightedBenchDip.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76341BD84868009AD03F /* weightedBenchDip.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76451BD84C26009AD03F /* jackknifeSitUp.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A763E1BD84C26009AD03F /* jackknifeSitUp.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76461BD84C26009AD03F /* straightArmPullover.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A763F1BD84C26009AD03F /* straightArmPullover.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76471BD84C26009AD03F /* barbellShrug.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76401BD84C26009AD03F /* barbellShrug.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76481BD84C26009AD03F /* bentOverRow.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76411BD84C26009AD03F /* bentOverRow.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76491BD84C26009AD03F /* closePullup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76421BD84C26009AD03F /* closePullup.jpg */; settings = {ASSET_TAGS = (); }; };
+		AC5A764A1BD84C26009AD03F /* hyperextensions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76431BD84C26009AD03F /* hyperextensions.jpg */; settings = {ASSET_TAGS = (); }; };
+		AC5A764B1BD84C26009AD03F /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76441BD84C26009AD03F /* imgres.jpg */; settings = {ASSET_TAGS = (); }; };
+		AC5A76551BD84EA5009AD03F /* hammerCurl.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A764D1BD84EA5009AD03F /* hammerCurl.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76561BD84EA5009AD03F /* preacherCurl.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A764E1BD84EA5009AD03F /* preacherCurl.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76571BD84EA5009AD03F /* ropePullDown.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A764F1BD84EA5009AD03F /* ropePullDown.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76581BD84EA5009AD03F /* barbellCurl.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76501BD84EA5009AD03F /* barbellCurl.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76591BD84EA5009AD03F /* benchDips.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76511BD84EA5009AD03F /* benchDips.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A765A1BD84EA5009AD03F /* declinebenchcrunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76521BD84EA5009AD03F /* declinebenchcrunch.jpg */; settings = {ASSET_TAGS = (); }; };
+		AC5A765B1BD84EA5009AD03F /* declineTriceps.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76531BD84EA5009AD03F /* declineTriceps.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A765C1BD84EA5009AD03F /* flatBenchLegRaise.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76541BD84EA5009AD03F /* flatBenchLegRaise.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76651BD851A8009AD03F /* seatedCalfRaise.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A765E1BD851A8009AD03F /* seatedCalfRaise.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76661BD851A8009AD03F /* standingCalfRaise.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A765F1BD851A8009AD03F /* standingCalfRaise.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76671BD851A8009AD03F /* barbellDeadlift.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76601BD851A8009AD03F /* barbellDeadlift.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76681BD851A8009AD03F /* hackSquat.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76611BD851A8009AD03F /* hackSquat.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A76691BD851A8009AD03F /* hangingLegRaise.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76621BD851A8009AD03F /* hangingLegRaise.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A766A1BD851A8009AD03F /* legPress.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76631BD851A8009AD03F /* legPress.png */; settings = {ASSET_TAGS = (); }; };
+		AC5A766B1BD851A8009AD03F /* lyingLegCurls.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5A76641BD851A8009AD03F /* lyingLegCurls.png */; settings = {ASSET_TAGS = (); }; };
+		ACFD62DC1BD80F4900A08749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD62DB1BD80F4900A08749 /* main.m */; };
+		ACFD62DF1BD80F4900A08749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD62DE1BD80F4900A08749 /* AppDelegate.m */; };
+		ACFD62E71BD80F4900A08749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFD62E61BD80F4900A08749 /* Assets.xcassets */; };
+		ACFD62F51BD80F4900A08749 /* Workout_PlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD62F41BD80F4900A08749 /* Workout_PlanTests.m */; };
+		ACFD63001BD80F4900A08749 /* Workout_PlanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD62FF1BD80F4900A08749 /* Workout_PlanUITests.m */; };
+		ACFD630E1BD8146200A08749 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFD630D1BD8146200A08749 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		ACFD63111BD814B300A08749 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD63101BD814B300A08749 /* MainViewController.m */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
+		ACFD631A1BD8334D00A08749 /* SundayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD63131BD8334D00A08749 /* SundayTableViewController.m */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
+		ACFD631B1BD8334D00A08749 /* TuesdayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD63151BD8334D00A08749 /* TuesdayTableViewController.m */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
+		ACFD631C1BD8334D00A08749 /* ThursdayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD63171BD8334D00A08749 /* ThursdayTableViewController.m */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
+		ACFD631D1BD8334D00A08749 /* FridayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFD63191BD8334D00A08749 /* FridayTableViewController.m */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACFD62F11BD80F4900A08749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFD62CF1BD80F4900A08749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFD62D61BD80F4900A08749;
+			remoteInfo = "Workout Plan";
+		};
+		ACFD62FC1BD80F4900A08749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFD62CF1BD80F4900A08749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFD62D61BD80F4900A08749;
+			remoteInfo = "Workout Plan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC5A762A1BD84371009AD03F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AC5A762D1BD84868009AD03F /* barbellInclineBenchPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbellInclineBenchPress.png; sourceTree = "<group>"; };
+		AC5A762E1BD84868009AD03F /* cableCrunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cableCrunch.png; sourceTree = "<group>"; };
+		AC5A762F1BD84868009AD03F /* inclineDumbellPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inclineDumbellPress.png; sourceTree = "<group>"; };
+		AC5A76301BD84868009AD03F /* lowPulley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lowPulley.png; sourceTree = "<group>"; };
+		AC5A76311BD84868009AD03F /* machineBenchPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machineBenchPress.png; sourceTree = "<group>"; };
+		AC5A76321BD84868009AD03F /* SeatedBentDeltRaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeatedBentDeltRaise.png; sourceTree = "<group>"; };
+		AC5A76331BD84868009AD03F /* smithMachineOverheadPress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smithMachineOverheadPress.jpg; sourceTree = "<group>"; };
+		AC5A76341BD84868009AD03F /* weightedBenchDip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightedBenchDip.png; sourceTree = "<group>"; };
+		AC5A763E1BD84C26009AD03F /* jackknifeSitUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jackknifeSitUp.png; sourceTree = "<group>"; };
+		AC5A763F1BD84C26009AD03F /* straightArmPullover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = straightArmPullover.png; sourceTree = "<group>"; };
+		AC5A76401BD84C26009AD03F /* barbellShrug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbellShrug.png; sourceTree = "<group>"; };
+		AC5A76411BD84C26009AD03F /* bentOverRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bentOverRow.png; sourceTree = "<group>"; };
+		AC5A76421BD84C26009AD03F /* closePullup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = closePullup.jpg; sourceTree = "<group>"; };
+		AC5A76431BD84C26009AD03F /* hyperextensions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyperextensions.jpg; sourceTree = "<group>"; };
+		AC5A76441BD84C26009AD03F /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		AC5A764D1BD84EA5009AD03F /* hammerCurl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammerCurl.png; sourceTree = "<group>"; };
+		AC5A764E1BD84EA5009AD03F /* preacherCurl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preacherCurl.png; sourceTree = "<group>"; };
+		AC5A764F1BD84EA5009AD03F /* ropePullDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ropePullDown.png; sourceTree = "<group>"; };
+		AC5A76501BD84EA5009AD03F /* barbellCurl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbellCurl.png; sourceTree = "<group>"; };
+		AC5A76511BD84EA5009AD03F /* benchDips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = benchDips.png; sourceTree = "<group>"; };
+		AC5A76521BD84EA5009AD03F /* declinebenchcrunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = declinebenchcrunch.jpg; sourceTree = "<group>"; };
+		AC5A76531BD84EA5009AD03F /* declineTriceps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = declineTriceps.png; sourceTree = "<group>"; };
+		AC5A76541BD84EA5009AD03F /* flatBenchLegRaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatBenchLegRaise.png; sourceTree = "<group>"; };
+		AC5A765E1BD851A8009AD03F /* seatedCalfRaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seatedCalfRaise.png; sourceTree = "<group>"; };
+		AC5A765F1BD851A8009AD03F /* standingCalfRaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standingCalfRaise.png; sourceTree = "<group>"; };
+		AC5A76601BD851A8009AD03F /* barbellDeadlift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbellDeadlift.png; sourceTree = "<group>"; };
+		AC5A76611BD851A8009AD03F /* hackSquat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hackSquat.png; sourceTree = "<group>"; };
+		AC5A76621BD851A8009AD03F /* hangingLegRaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangingLegRaise.png; sourceTree = "<group>"; };
+		AC5A76631BD851A8009AD03F /* legPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legPress.png; sourceTree = "<group>"; };
+		AC5A76641BD851A8009AD03F /* lyingLegCurls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyingLegCurls.png; sourceTree = "<group>"; };
+		ACFD62D71BD80F4900A08749 /* Prad's Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prad's Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFD62DB1BD80F4900A08749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACFD62DD1BD80F4900A08749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACFD62DE1BD80F4900A08749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACFD62E61BD80F4900A08749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFD62EB1BD80F4900A08749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFD62F01BD80F4900A08749 /* Workout PlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout PlanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFD62F41BD80F4900A08749 /* Workout_PlanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workout_PlanTests.m; sourceTree = "<group>"; };
+		ACFD62F61BD80F4900A08749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFD62FB1BD80F4900A08749 /* Workout PlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout PlanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFD62FF1BD80F4900A08749 /* Workout_PlanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workout_PlanUITests.m; sourceTree = "<group>"; };
+		ACFD63011BD80F4900A08749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFD630D1BD8146200A08749 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACFD630F1BD814B300A08749 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ACFD63101BD814B300A08749 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		ACFD63121BD8334D00A08749 /* SundayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SundayTableViewController.h; sourceTree = "<group>"; };
+		ACFD63131BD8334D00A08749 /* SundayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SundayTableViewController.m; sourceTree = "<group>"; };
+		ACFD63141BD8334D00A08749 /* TuesdayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuesdayTableViewController.h; sourceTree = "<group>"; };
+		ACFD63151BD8334D00A08749 /* TuesdayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuesdayTableViewController.m; sourceTree = "<group>"; };
+		ACFD63161BD8334D00A08749 /* ThursdayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThursdayTableViewController.h; sourceTree = "<group>"; };
+		ACFD63171BD8334D00A08749 /* ThursdayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThursdayTableViewController.m; sourceTree = "<group>"; };
+		ACFD63181BD8334D00A08749 /* FridayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FridayTableViewController.h; sourceTree = "<group>"; };
+		ACFD63191BD8334D00A08749 /* FridayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FridayTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFD62D41BD80F4900A08749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD62ED1BD80F4900A08749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD62F81BD80F4900A08749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5A762C1BD8485F009AD03F /* Sunday Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A762D1BD84868009AD03F /* barbellInclineBenchPress.png */,
+				AC5A762E1BD84868009AD03F /* cableCrunch.png */,
+				AC5A762F1BD84868009AD03F /* inclineDumbellPress.png */,
+				AC5A76301BD84868009AD03F /* lowPulley.png */,
+				AC5A76311BD84868009AD03F /* machineBenchPress.png */,
+				AC5A76321BD84868009AD03F /* SeatedBentDeltRaise.png */,
+				AC5A76331BD84868009AD03F /* smithMachineOverheadPress.jpg */,
+				AC5A76341BD84868009AD03F /* weightedBenchDip.png */,
+			);
+			name = "Sunday Images";
+			sourceTree = "<group>";
+		};
+		AC5A763D1BD84C15009AD03F /* Tuesday Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A763E1BD84C26009AD03F /* jackknifeSitUp.png */,
+				AC5A763F1BD84C26009AD03F /* straightArmPullover.png */,
+				AC5A76401BD84C26009AD03F /* barbellShrug.png */,
+				AC5A76411BD84C26009AD03F /* bentOverRow.png */,
+				AC5A76421BD84C26009AD03F /* closePullup.jpg */,
+				AC5A76431BD84C26009AD03F /* hyperextensions.jpg */,
+				AC5A76441BD84C26009AD03F /* imgres.jpg */,
+			);
+			name = "Tuesday Images";
+			sourceTree = "<group>";
+		};
+		AC5A764C1BD84DC1009AD03F /* Thursday Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A764D1BD84EA5009AD03F /* hammerCurl.png */,
+				AC5A764E1BD84EA5009AD03F /* preacherCurl.png */,
+				AC5A764F1BD84EA5009AD03F /* ropePullDown.png */,
+				AC5A76501BD84EA5009AD03F /* barbellCurl.png */,
+				AC5A76511BD84EA5009AD03F /* benchDips.png */,
+				AC5A76521BD84EA5009AD03F /* declinebenchcrunch.jpg */,
+				AC5A76531BD84EA5009AD03F /* declineTriceps.png */,
+				AC5A76541BD84EA5009AD03F /* flatBenchLegRaise.png */,
+			);
+			name = "Thursday Images";
+			sourceTree = "<group>";
+		};
+		AC5A765D1BD85042009AD03F /* Friday Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A765E1BD851A8009AD03F /* seatedCalfRaise.png */,
+				AC5A765F1BD851A8009AD03F /* standingCalfRaise.png */,
+				AC5A76601BD851A8009AD03F /* barbellDeadlift.png */,
+				AC5A76611BD851A8009AD03F /* hackSquat.png */,
+				AC5A76621BD851A8009AD03F /* hangingLegRaise.png */,
+				AC5A76631BD851A8009AD03F /* legPress.png */,
+				AC5A76641BD851A8009AD03F /* lyingLegCurls.png */,
+			);
+			name = "Friday Images";
+			sourceTree = "<group>";
+		};
+		ACFD62CE1BD80F4900A08749 = {
+			isa = PBXGroup;
+			children = (
+				ACFD62D91BD80F4900A08749 /* Workout Plan */,
+				ACFD62F31BD80F4900A08749 /* Workout PlanTests */,
+				ACFD62FE1BD80F4900A08749 /* Workout PlanUITests */,
+				ACFD62D81BD80F4900A08749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFD62D81BD80F4900A08749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD62D71BD80F4900A08749 /* Prad's Workout.app */,
+				ACFD62F01BD80F4900A08749 /* Workout PlanTests.xctest */,
+				ACFD62FB1BD80F4900A08749 /* Workout PlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFD62D91BD80F4900A08749 /* Workout Plan */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A762C1BD8485F009AD03F /* Sunday Images */,
+				AC5A763D1BD84C15009AD03F /* Tuesday Images */,
+				AC5A764C1BD84DC1009AD03F /* Thursday Images */,
+				AC5A765D1BD85042009AD03F /* Friday Images */,
+				ACFD630D1BD8146200A08749 /* Default-568h@2x.png */,
+				ACFD62DD1BD80F4900A08749 /* AppDelegate.h */,
+				ACFD62DE1BD80F4900A08749 /* AppDelegate.m */,
+				ACFD630F1BD814B300A08749 /* MainViewController.h */,
+				ACFD63101BD814B300A08749 /* MainViewController.m */,
+				ACFD63121BD8334D00A08749 /* SundayTableViewController.h */,
+				ACFD63131BD8334D00A08749 /* SundayTableViewController.m */,
+				ACFD63141BD8334D00A08749 /* TuesdayTableViewController.h */,
+				ACFD63151BD8334D00A08749 /* TuesdayTableViewController.m */,
+				ACFD63161BD8334D00A08749 /* ThursdayTableViewController.h */,
+				ACFD63171BD8334D00A08749 /* ThursdayTableViewController.m */,
+				ACFD63181BD8334D00A08749 /* FridayTableViewController.h */,
+				ACFD63191BD8334D00A08749 /* FridayTableViewController.m */,
+				ACFD62E61BD80F4900A08749 /* Assets.xcassets */,
+				AC5A762A1BD84371009AD03F /* icon.png */,
+				ACFD62EB1BD80F4900A08749 /* Info.plist */,
+				ACFD62DA1BD80F4900A08749 /* Supporting Files */,
+			);
+			path = "Workout Plan";
+			sourceTree = "<group>";
+		};
+		ACFD62DA1BD80F4900A08749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD62DB1BD80F4900A08749 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACFD62F31BD80F4900A08749 /* Workout PlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD62F41BD80F4900A08749 /* Workout_PlanTests.m */,
+				ACFD62F61BD80F4900A08749 /* Info.plist */,
+			);
+			path = "Workout PlanTests";
+			sourceTree = "<group>";
+		};
+		ACFD62FE1BD80F4900A08749 /* Workout PlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD62FF1BD80F4900A08749 /* Workout_PlanUITests.m */,
+				ACFD63011BD80F4900A08749 /* Info.plist */,
+			);
+			path = "Workout PlanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFD62D61BD80F4900A08749 /* Workout Plan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFD63041BD80F4900A08749 /* Build configuration list for PBXNativeTarget "Workout Plan" */;
+			buildPhases = (
+				ACFD62D31BD80F4900A08749 /* Sources */,
+				ACFD62D41BD80F4900A08749 /* Frameworks */,
+				ACFD62D51BD80F4900A08749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workout Plan";
+			productName = "Workout Plan";
+			productReference = ACFD62D71BD80F4900A08749 /* Prad's Workout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFD62EF1BD80F4900A08749 /* Workout PlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFD63071BD80F4900A08749 /* Build configuration list for PBXNativeTarget "Workout PlanTests" */;
+			buildPhases = (
+				ACFD62EC1BD80F4900A08749 /* Sources */,
+				ACFD62ED1BD80F4900A08749 /* Frameworks */,
+				ACFD62EE1BD80F4900A08749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFD62F21BD80F4900A08749 /* PBXTargetDependency */,
+			);
+			name = "Workout PlanTests";
+			productName = "Workout PlanTests";
+			productReference = ACFD62F01BD80F4900A08749 /* Workout PlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACFD62FA1BD80F4900A08749 /* Workout PlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFD630A1BD80F4900A08749 /* Build configuration list for PBXNativeTarget "Workout PlanUITests" */;
+			buildPhases = (
+				ACFD62F71BD80F4900A08749 /* Sources */,
+				ACFD62F81BD80F4900A08749 /* Frameworks */,
+				ACFD62F91BD80F4900A08749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFD62FD1BD80F4900A08749 /* PBXTargetDependency */,
+			);
+			name = "Workout PlanUITests";
+			productName = "Workout PlanUITests";
+			productReference = ACFD62FB1BD80F4900A08749 /* Workout PlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFD62CF1BD80F4900A08749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Pradyumn;
+				TargetAttributes = {
+					ACFD62D61BD80F4900A08749 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ACFD62EF1BD80F4900A08749 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ACFD62D61BD80F4900A08749;
+					};
+					ACFD62FA1BD80F4900A08749 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ACFD62D61BD80F4900A08749;
+					};
+				};
+			};
+			buildConfigurationList = ACFD62D21BD80F4900A08749 /* Build configuration list for PBXProject "Workout Plan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFD62CE1BD80F4900A08749;
+			productRefGroup = ACFD62D81BD80F4900A08749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFD62D61BD80F4900A08749 /* Workout Plan */,
+				ACFD62EF1BD80F4900A08749 /* Workout PlanTests */,
+				ACFD62FA1BD80F4900A08749 /* Workout PlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFD62D51BD80F4900A08749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFD62E71BD80F4900A08749 /* Assets.xcassets in Resources */,
+				AC5A76681BD851A8009AD03F /* hackSquat.png in Resources */,
+				AC5A76361BD84868009AD03F /* cableCrunch.png in Resources */,
+				AC5A763A1BD84868009AD03F /* SeatedBentDeltRaise.png in Resources */,
+				AC5A766A1BD851A8009AD03F /* legPress.png in Resources */,
+				AC5A76561BD84EA5009AD03F /* preacherCurl.png in Resources */,
+				AC5A766B1BD851A8009AD03F /* lyingLegCurls.png in Resources */,
+				AC5A765A1BD84EA5009AD03F /* declinebenchcrunch.jpg in Resources */,
+				AC5A763B1BD84868009AD03F /* smithMachineOverheadPress.jpg in Resources */,
+				AC5A76691BD851A8009AD03F /* hangingLegRaise.png in Resources */,
+				AC5A76451BD84C26009AD03F /* jackknifeSitUp.png in Resources */,
+				AC5A76571BD84EA5009AD03F /* ropePullDown.png in Resources */,
+				AC5A76391BD84868009AD03F /* machineBenchPress.png in Resources */,
+				AC5A76671BD851A8009AD03F /* barbellDeadlift.png in Resources */,
+				AC5A765B1BD84EA5009AD03F /* declineTriceps.png in Resources */,
+				AC5A76491BD84C26009AD03F /* closePullup.jpg in Resources */,
+				AC5A762B1BD84371009AD03F /* icon.png in Resources */,
+				AC5A76581BD84EA5009AD03F /* barbellCurl.png in Resources */,
+				AC5A76551BD84EA5009AD03F /* hammerCurl.png in Resources */,
+				AC5A763C1BD84868009AD03F /* weightedBenchDip.png in Resources */,
+				AC5A76351BD84868009AD03F /* barbellInclineBenchPress.png in Resources */,
+				AC5A76381BD84868009AD03F /* lowPulley.png in Resources */,
+				AC5A76371BD84868009AD03F /* inclineDumbellPress.png in Resources */,
+				AC5A76661BD851A8009AD03F /* standingCalfRaise.png in Resources */,
+				AC5A764A1BD84C26009AD03F /* hyperextensions.jpg in Resources */,
+				AC5A76461BD84C26009AD03F /* straightArmPullover.png in Resources */,
+				AC5A764B1BD84C26009AD03F /* imgres.jpg in Resources */,
+				AC5A76471BD84C26009AD03F /* barbellShrug.png in Resources */,
+				AC5A76481BD84C26009AD03F /* bentOverRow.png in Resources */,
+				AC5A765C1BD84EA5009AD03F /* flatBenchLegRaise.png in Resources */,
+				AC5A76591BD84EA5009AD03F /* benchDips.png in Resources */,
+				ACFD630E1BD8146200A08749 /* Default-568h@2x.png in Resources */,
+				AC5A76651BD851A8009AD03F /* seatedCalfRaise.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD62EE1BD80F4900A08749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD62F91BD80F4900A08749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFD62D31BD80F4900A08749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFD62DF1BD80F4900A08749 /* AppDelegate.m in Sources */,
+				ACFD631B1BD8334D00A08749 /* TuesdayTableViewController.m in Sources */,
+				ACFD631A1BD8334D00A08749 /* SundayTableViewController.m in Sources */,
+				ACFD62DC1BD80F4900A08749 /* main.m in Sources */,
+				ACFD63111BD814B300A08749 /* MainViewController.m in Sources */,
+				ACFD631C1BD8334D00A08749 /* ThursdayTableViewController.m in Sources */,
+				ACFD631D1BD8334D00A08749 /* FridayTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD62EC1BD80F4900A08749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFD62F51BD80F4900A08749 /* Workout_PlanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD62F71BD80F4900A08749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFD63001BD80F4900A08749 /* Workout_PlanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACFD62F21BD80F4900A08749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFD62D61BD80F4900A08749 /* Workout Plan */;
+			targetProxy = ACFD62F11BD80F4900A08749 /* PBXContainerItemProxy */;
+		};
+		ACFD62FD1BD80F4900A08749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFD62D61BD80F4900A08749 /* Workout Plan */;
+			targetProxy = ACFD62FC1BD80F4900A08749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACFD63021BD80F4900A08749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACFD63031BD80F4900A08749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFD63051BD80F4900A08749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Workout Plan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re2pect.Workout-Plan";
+				PRODUCT_NAME = "Prad's Workout";
+			};
+			name = Debug;
+		};
+		ACFD63061BD80F4900A08749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Workout Plan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re2pect.Workout-Plan";
+				PRODUCT_NAME = "Prad's Workout";
+			};
+			name = Release;
+		};
+		ACFD63081BD80F4900A08749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Workout PlanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re2pect.Workout-PlanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workout Plan.app/Workout Plan";
+			};
+			name = Debug;
+		};
+		ACFD63091BD80F4900A08749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Workout PlanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re2pect.Workout-PlanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workout Plan.app/Workout Plan";
+			};
+			name = Release;
+		};
+		ACFD630B1BD80F4900A08749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Workout PlanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re2pect.Workout-PlanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Workout Plan";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACFD630C1BD80F4900A08749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Workout PlanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.re2pect.Workout-PlanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Workout Plan";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFD62D21BD80F4900A08749 /* Build configuration list for PBXProject "Workout Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFD63021BD80F4900A08749 /* Debug */,
+				ACFD63031BD80F4900A08749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFD63041BD80F4900A08749 /* Build configuration list for PBXNativeTarget "Workout Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFD63051BD80F4900A08749 /* Debug */,
+				ACFD63061BD80F4900A08749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFD63071BD80F4900A08749 /* Build configuration list for PBXNativeTarget "Workout PlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFD63081BD80F4900A08749 /* Debug */,
+				ACFD63091BD80F4900A08749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFD630A1BD80F4900A08749 /* Build configuration list for PBXNativeTarget "Workout PlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFD630B1BD80F4900A08749 /* Debug */,
+				ACFD630C1BD80F4900A08749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFD62CF1BD80F4900A08749 /* Project object */;
+}
